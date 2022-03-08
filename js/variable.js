@@ -11,7 +11,7 @@
 // console.log(10 + 11 + 22);
 //
 /*
-// Variable name conventions
+// VARIABLE NAME CONVENTION
 //
 // let 3years = 3; //nazwa zmiennej nie może zaczynać się cyfrą
 // let jonas&matilda = 'JM'; //w zmiennej nie może występować znak &
@@ -22,7 +22,7 @@
 //
 // let PI = 3.1415; //nazwa z dużych liter jest zarezerwowana dla zmiennych, które się nie zmieniają
 //
-// Boolean value
+// BOOLEAN VALUE
 true;
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -35,7 +35,7 @@ console.log(typeof javascriptIsFun);
 javascriptIsFun = 'YES';
 console.log(typeof javascriptIsFun);
 
-// Undefined
+// UNDEFINED
 let year;
 console.log(year);
 console.log(typeof year);
@@ -43,7 +43,7 @@ console.log(typeof year);
 year = 1991;
 console.log(typeof year);
 
-// type of operator
+// TYPE OF OPERATOR
 console.log(typeof null);
 */
 
