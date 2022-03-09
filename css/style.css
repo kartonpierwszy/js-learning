@@ -28,3 +28,7 @@ a {
 a:hover {
   color: rgb(65, 65, 65);
 }
+
+div {
+  margin: 1em;
+}
