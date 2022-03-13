@@ -28,6 +28,7 @@ console.log(century);
 // CHALLENGE #2 - if - else statements
 /////////////////////////
 //
+/**
 // const massMark = 78;
 // const heightMark = 1.69;
 // const massJohn = 92;
@@ -53,3 +54,7 @@ if (bmiJohn > bmiMark) {
 } else {
   console.log(`John's and Mark's BMI is equal :)`);
 }
+*/
+
+//////////////////////////////////////////////
+const ageR = 30;
