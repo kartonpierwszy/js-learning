@@ -46,6 +46,7 @@ const num = '23';
 */
 //
 // FUNCTION DECLARATIONS
+/*
 const age1 = calcAge1(1991); //Przy function declaration funkcję można wywołać przed jej deklaracją
 
 function calcAge1(birthYear) {
@@ -61,3 +62,21 @@ const calcAge2 = function (birthYear) {
   return 2037 - birthYear;
 };
 console.log(age1, age2);
+*/
+//
+// FUNCTION CALLING OTHER FUNCTION
+
+function cutFruitPieces(fruit) {
+  return fruit * 4;
+}
+
+function fruitProcessor(apples, oranges) {
+  const applePieces = cutFruitPieces(apples);
+  const orangePieces = cutFruitPieces(oranges);
+
+  const juice = `Juice with ${applePieces} apple pieces and ${orangePieces} orange Pieces`;
+  return juice;
+}
+
+const finalJuice = fruitProcessor(4, 3);
+console.log(finalJuice);
