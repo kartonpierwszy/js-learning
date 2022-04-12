@@ -73,3 +73,18 @@ console.log(markHigherBMIa);
 const markHigherBMIb = massMark / heightMark ** 2 > massJohn / heightJohn ** 2;
 console.log(markHigherBMIb);
 */
+
+//
+// Logical operators
+// && - AND - muszą zostać spełnione wszystkie warunki
+// || - OR - musi zostać spełniony conajmniej jeden warunek
+//
+if (true && true) {
+  console.log('to jest true');
+}
+if (1 < 2 && 4 > 3) console.log('To jest true');
+if (3 == 2 || 2 > 4) {
+  console.log('1en z warunków został spełniony');
+} else {
+  console.log('Niestety żaden z warunków nie został spełniony');
+}
